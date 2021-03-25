@@ -14,3 +14,13 @@ shirt_expense = 9
 new_budget_after_shirt = deduct_expense(current_budget, shirt_expense)
 
 print_remaining_budget(new_budget_after_shirt)
+
+
+# Write your code below: 
+def calculate_expenses(plane_ticket_price, car_rental_rate, hotel_rate, trip_time):
+  car_rental_total = car_rental_rate * trip_time
+  hotel_total = hotel_rate * trip_time - 10
+  print(car_rental_total + hotel_total + plane_ticket_price)
+calculate_expenses(200, 100, 100, 5)
+
+
